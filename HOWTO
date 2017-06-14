@@ -1,0 +1,8 @@
+# Create venv
+python3 -m venv --without-pip myvenv
+
+# Activate venv in fish shell
+. myvenv/bin/activate.fish 
+
+# To run startapp...
+export PYTHONPATH=/Users/lucsan/anaconda/lib/python3.6/site-packages
