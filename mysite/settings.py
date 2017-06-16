@@ -25,7 +25,7 @@ SECRET_KEY = 'm5mhu)vg=(m-)j=j_%n2(e_pt6%t4+yc(snn#$y*4kyo^0c4jj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'luciasantamaria.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'luciasantamaria.pythonanywhere.com']
 
 # Application definition
 
@@ -50,6 +50,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mysite.urls'
+
+LOGIN_REDIRECT_URL = '/'
 
 TEMPLATES = [
     {
